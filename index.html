@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section id="mainSection">
+      <article>
+        <div class="mainArticle">
+          <!-- leftSide Starts here -->
+
+          <aside id="leftSide">
+            <div id="logoDiv">
+              <a href=""
+                ><img
+                  id="logo"
+                  src="./Images/sotifylogo.jpeg"
+                  alt=""
+              /></a>
+            </div>
+            <div id="homeDiv">
+              <ul>
+                <li>
+                  <a href=""><i class="fa-solid fa-house"></i>Home</a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-magnifying-glass"></i>Search</a
+                  >
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-music"></i>Your Library</a>
+                </li>
+              </ul>
+            </div>
+
+            <div id="playlistDiv">
+              <ul>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-square-plus"></i>Create Playlist</a
+                  >
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-heart"></i>Liked Songs</a>
+                </li>
+              </ul>
+            </div>
+
+            <div id="categoryDiv">
+              <ul>
+                <li><a href="">My Playlist #1</a></li>
+                <li><a href="">Mine😔🤍</a></li>
+                <li><a href="">Traveling Mash Up</a></li>
+                <li><a href="">No Love(Slowed+Reverb)</a></li>
+                <li><a href="">Top 50 - Global</a></li>
+                <li><a href="">NCS Top 100</a></li>
+                <li><a href="">Punjabi</a></li>
+                <li><a href="">Hindi</a></li>
+                <li><a href="">Mashup</a></li>
+              </ul>
+            </div>
+            <div id="installDiv">
+              <a href=""
+                ><i class="fa-regular fa-circle-down"></i>Install App</a
+              >
+            </div>
+
+            <!-- leftSide ends here -->
+
+            <!-- right Side starts here -->
+
+          </aside>
+          <aside id="rightSide">
+            <nav id="nav">
+              <div id="navigationButtons">
+
+               <button id="previous"><a href="" ><i class="fa-solid fa-less-than"></i></button></a>
+               <button id="next"><a href=""><i class="fa-solid fa-greater-than"></i></button></a>
+              </div>
+
+              <div id="navDiv2">
+
+                <button id="upgradeButton"><a href="">Upgrade</a></button>
+
+                <button id="profileButton"><a href="">
+                  <span><i class="fa-regular fa-user"></i></span
+                  ><span>Akshay Alase</span><i class="fa-solid fa-caret-down"></i></button></a>
+              </div>
+            </nav>
+
+            <main id="div"></main>
+          </aside>
+        </div>
+        <!-- right Side ends here -->
+
+        <!-- footer starts here -->
+
+        <div id="main-audio">
+          <aside id="audio-left">
+            <img id="audio-img" src="" alt="">
+            <p id="audio-name"></p>
+          </aside>
+          <aside id="audio-center">
+            <button id="audio-shuffel"><i class="fa-solid fa-shuffle"></i>
+          </button>
+          <button id="audio-previous"><i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <audio id="audio" src="" controls autoplay></audio>
+        <button id="audio-play"><i class="fa-solid fa-play"></i>
+        </button>
+        <button id="audio-next"><i class="fa-solid fa-chevron-right"></i>
+        </button>
+         <button id="audio-repeat"><i class="fa-solid fa-repeat"></i>
+        </button>
+        </aside>
+        <aside id="audio-right">
+          <!-- <button id="duration">duration
+        </button> -->
+        <!-- <div id="duration-bar"></div> -->
+      </aside>
+      </div>
+
+        <!-- footer starts here -->
+      </article>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
