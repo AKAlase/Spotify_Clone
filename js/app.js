@@ -1,5 +1,5 @@
 const clientId = "7e948b5ccdc24182b66949a29ad0ed3e";
-const clientSecret = "c0e67f6bfdfa47c18506fb39ef0fb9ee";
+const clientSecret = "c0e67f6bfdfa47c18506fb39ef0";//Use your Spotify Secret code
 let i = 0;
 var duration = document.getElementById("duration-bar");
 const getToken = async () => {
